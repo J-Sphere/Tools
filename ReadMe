@@ -1,0 +1,15 @@
+The following tools are free to use, 
+Publishing them or selling them under another name is illegal
+It is forbidden to run them on Soft or Hardware which do not belong to you
+The purpose of these programs is to work quicker, as Mac OS does not have a version of them in the Terminal
+
+To create shortcut put the following into your .cshrc or .bash
+alias hmi 'python /PATHTOFILE/how_many_items.py '
+alias tree2 'python /PATHTOFILE/tree.py '
+alias tree 'python /PATHTOFILE/tree3.py '
+
+HMI counts the items in one's directory
+TREE gives you a graphic visualisation of the directories (Version for python 3 is tree3.py)
+In HST_DifferenceImaging/Scripts are two other helpful tools, also further explained, which sort fits images by proposal ID and filter:
+sort_images_by_propoid.py
+sort_images_by_filter.py
